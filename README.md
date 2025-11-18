@@ -1,8 +1,8 @@
-## 🏫 Flask Student API
+# 🏫 Flask Student API
 
 Flask Student API is a Python-based web application built with Flask and SQLite for managing student records. It provides full CRUD functionality (Create, Read, Update, Delete) through a user-friendly web interface.
 
-📂 Project Structure
+### 📂 Project Structure
 Flask_student_api/
 │
 ├── app.py               # 🖥️ Main Flask application with routing and CRUD logic
@@ -18,7 +18,7 @@ Flask_student_api/
       ├── UPDATE.html
       └── NOTFOUNT.html
 
-✨ Features
+### ✨ Features
 
 ➕ Add Student Records – Input student details via a web form.
 
@@ -30,7 +30,7 @@ Flask_student_api/
 
 ⚠️ Error Handling – Displays “Not Found” page if a student record doesn’t exist.
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Backend: Python 🐍, Flask ⚡
 
@@ -40,6 +40,4 @@ Frontend: HTML templates (Jinja2) 🌐
 
 Deployment Ready: Procfile 🚀
 
-🔑 Keywords
 
-Flask web application, Python CRUD, SQLite database, Full-stack Python project, Student management system, Flask routing, Web forms, Dynamic HTML templates, Python web development, Deployment-ready Flask app
