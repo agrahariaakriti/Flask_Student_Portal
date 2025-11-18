@@ -1,4 +1,4 @@
-🏫 Flask Student API
+## 🏫 Flask Student API
 
 Flask Student API is a Python-based web application built with Flask and SQLite for managing student records. It provides full CRUD functionality (Create, Read, Update, Delete) through a user-friendly web interface.
 
