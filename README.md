@@ -5,18 +5,18 @@ Flask Student API is a Python-based web application built with Flask and SQLite 
 ### 📂 Project Structure
 Flask_student_api/
 │
-├── app.py               # 🖥️ Main Flask application with routing and CRUD logic
-├── Student.db           # 🗄️ SQLite database storing student records
-├── requirements.txt     # 📦 Project dependencies
-├── Procfile             # 🚀 Deployment configuration for platforms like Heroku
-├── .gitignore           # ❌ Files to ignore in Git
-└── templates/           # 🌐 HTML templates for frontend UI
-      ├── Home.html
-      ├── Form.html
-      ├── getData.html
-      ├── Delete_data.html
-      ├── UPDATE.html
-      └── NOTFOUNT.html
+├── app.py # 🖥️ Main Flask application with routing and CRUD logic
+├── Student.db # 🗄️ SQLite database storing student records
+├── requirements.txt # 📦 Project dependencies
+├── Procfile # 🚀 Deployment configuration for platforms like Heroku
+├── .gitignore # ❌ Files to ignore in Git
+└── templates/ # 🌐 HTML templates for frontend UI
+├── Home.html
+├── Form.html
+├── getData.html
+├── Delete_data.html
+├── UPDATE.html
+└── NOTFOUNT.html
 
 ### ✨ Features
 
