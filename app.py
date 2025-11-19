@@ -5,9 +5,9 @@ def init_db():
 
   with sqlite3.connect("Student.db") as connection:
     cursor=connection.cursor()
-    cursor.execute("DROP TABLE IF EXISTS student")
+    # cursor.execute("DROP TABLE IF EXISTS student")
         # Create new table with new column
-    cursor.execute("""CREATE TABLE student(
+    cursor.execute("""CREATE TABLE IF NOT EXISTS student(
     UNI INTEGER PRIMARY KEY,  
     NAME TEXT NOT NULL,
     AGE INTEGER NOT NULL,
